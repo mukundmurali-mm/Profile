@@ -1,6 +1,6 @@
-# Neobrutalist Portfolio Site
+# Professional Portfolio Site
 
-A bold, in-your-face portfolio website built with pure HTML, CSS, and JavaScript that renders markdown content with a neobrutalist design aesthetic.
+A modern, professional portfolio website built with a clean neobrutalist design aesthetic. Features responsive design, smooth navigation, and markdown-powered content management.
 
 ## 🚨 GitHub Pages Setup Fixed!
 
@@ -36,34 +36,39 @@ This site is now configured to work perfectly with GitHub Pages! Here's what I f
 6. **Click Save**
 7. **Your site will be available at: `https://yourusername.github.io/repository-name`**
 
-## 🎨 Features
+## 🎨 Design Features
 
-- **Neobrutalist Design**: Bold colors, thick borders, and aggressive shadows
-- **Markdown-Powered**: All content is written in markdown for easy editing
-- **Responsive**: Works on all devices (brutally well)
+- **Professional Neobrutalist Theme**: Clean, modern design with bold elements and subtle shadows
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile devices
+- **Typography**: Professional font pairing with Inter and JetBrains Mono
+- **Accessibility**: WCAG compliant with proper focus states and semantic HTML
+- **Performance**: Optimized CSS with minimal dependencies
+- **Markdown-Powered**: All content written in markdown for easy editing
 - **Single Page App**: Smooth navigation between sections
-- **No Framework Dependencies**: Pure vanilla JavaScript
-- **Easy to Customize**: Modify colors, fonts, and layout in CSS variables
+
+
 - **GitHub Pages Ready**: Configured specifically for GitHub Pages deployment
 
-## 🔧 Customization
+### Professional Color Paletteomization
 
 ### Colors
 Edit the CSS variables in `css/neobrutalist.css`:
 
-```css
-:root {
-    --primary-color: #000000;    /* Black */
-    --secondary-color: #ffffff;  /* White */
-    --accent-color: #ff0080;     /* Hot Pink */
+    --primary-color: #2563eb;      /* Professional blue */
+    --primary-dark: #1d4ed8;       /* Darker blue variant */
+    --secondary-color: #64748b;    /* Professional gray */
+    --accent-color: #f59e0b;       /* Accent orange */
+    --success-color: #10b981;      /* Success green */
+    --gray-900: #0f172a;           /* Dark text */
+    --gray-50: #f8fafc;            /* Light background */ */
     --warning-color: #ffff00;    /* Yellow */
     --success-color: #00ff00;    /* Green */
 }
-```
-
-### Content
-Simply edit the markdown files in the `content/` folder:
-- `content/about.md` - Your personal information and skills
+### Professional Content Structure
+The content has been updated to reflect a professional portfolio:
+- `content/about.md` - Professional overview, skills, and expertise
+- `content/experience.md` - Detailed work history with achievements and technologies
+- `content/blogs.md` - Technical articles, tutorials, and professional insightsand skills
 - `content/experience.md` - Your work history and achievements  
 - `content/blogs.md` - Your articles and thoughts
 
@@ -90,13 +95,15 @@ The site will automatically render your markdown as HTML with the neobrutalist s
 - Code blocks and inline code
 - Blockquotes
 - Tables
-- HTML elements (for advanced styling)
-
+### Professional CSS Classes
+Use these classes in your markdown for enhanced styling:
 ### Special CSS Classes
 Use these classes in your markdown for extra styling:
-
-```html
-<div class="card">Content in a card</div>
+<div class="card">Professional content card</div>
+<span class="badge">Technology</span>
+<div class="experience-item">Work experience with timeline</div>
+<div class="blog-post">Article or blog post</div>
+<div class="stats-grid">Statistics display</div>
 <span class="badge">Tag</span>
 <span class="highlight">Highlighted text</span>
 ```
@@ -122,8 +129,8 @@ If your site still shows only the README:
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
+**Built with ❤️ and modern web technologies**
 
-**Built with ❤️ and a lot of ☕**
+*Professional portfolio template designed for developers and tech professionals*
 
 *Remember: In neobrutalism, subtle is a four-letter word!*
