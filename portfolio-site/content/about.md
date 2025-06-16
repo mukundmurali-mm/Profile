@@ -18,7 +18,6 @@ I'm obsessed with clean code, brutal design, and making the web a more interesti
 <div class="card">
 
 #### Languages I Speak Fluently
-- JavaScript/TypeScript
 - Python
 - HTML/CSS
 - SQL
@@ -63,10 +62,10 @@ I believe in:
 
 Want to build something awesome together? Let's chat!
 
-- **Email**: your.email@example.com
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- **Twitter**: [@yourusername](https://twitter.com/yourusername)
+- **Email**: mukund2345@gmail.com
+- **GitHub**: [github.com/mukundmurali-mm](https://github.com/mukundmurali-mm)
+- **LinkedIn**: [linkedin.com/in/mukundmurali-mm](https://linkedin.com/in/mukundmurali-mm)
+
 
 ---
 

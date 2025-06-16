@@ -181,16 +181,6 @@ Complete project tutorials that take you from idea to production.
 
 ---
 
-## WRITING STATS
-
-- **Total Articles**: 47
-- **Monthly Readers**: 25,000+
-- **Average Read Time**: 8 minutes
-- **Most Popular Post**: "Why I Deleted 50,000 Lines of Code" (50K views)
-- **Coffee Consumed While Writing**: ∞ cups ☕
-
----
-
 ## WANT TO COLLABORATE?
 
 I'm always looking for interesting topics to write about! Got a suggestion or want to guest post?
@@ -202,10 +192,6 @@ I'm always looking for interesting topics to write about! Got a suggestion or wa
 - Hot takes on tech trends
 - Career advice for developers
 
-**Contact Me:**
-- **Email**: blog@yourname.com
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-- **Dev.to**: [dev.to/yourprofile](https://dev.to/yourprofile)
 
 ---
 
