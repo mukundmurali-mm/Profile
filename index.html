@@ -3,39 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mukund Murali - Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/neobrutalist.css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <title>Mukund Murali | Technical Product Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @media print {
+            .no-print { display: none; }
+            body { background-color: white; color: black; }
+            .resume-card { box-shadow: none; border: none; }
+        }
+    </style>
 </head>
-<body>
-    <header class="header">
-        <div class="container">
-            <h1 class="logo">Mukund Murali</h1>
-            <nav class="nav">
-                <button class="nav-btn active" data-section="about">About</button>
-                <button class="nav-btn" data-section="experience">Experience</button>
-                <button class="nav-btn" data-section="blogs">Blog</button>
-            </nav>
-        </div>
-    </header>
+<body class="bg-slate-100 text-slate-900 font-sans leading-relaxed">
 
-    <main class="main">
-        <div class="container">
-            <div id="content" class="content">
-                <!-- Content will be loaded here -->
+    <!-- Navigation/Actions -->
+    <div class="no-print fixed top-5 right-5 flex gap-3">
+        <a href="https://blog.mukundmurali.in" target="_blank" class="bg-slate-800 hover:bg-slate-900 text-white px-4 py-2 rounded-lg font-medium shadow-md transition-all flex items-center gap-2">
+            <i class="fas fa-external-link-alt"></i> Visit my Blog
+        </a>
+        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium shadow-md transition-all flex items-center gap-2">
+            <i class="fas fa-download"></i> Download as PDF
+        </button>
+    </div>
+
+    <div class="max-w-4xl mx-auto py-12 px-6">
+        <!-- Resume Card -->
+        <div class="resume-card bg-white shadow-2xl rounded-2xl overflow-hidden border border-slate-200">
+            
+            <!-- Header Section -->
+            <header class="bg-slate-900 text-white p-10">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+                    <div>
+                        <h1 class="text-4xl font-bold tracking-tight">MUKUND MURALI</h1>
+                        <p class="text-xl text-slate-400 mt-2 font-medium">Technical Product Manager | Cloud Solutions & AI Strategy</p>
+                    </div>
+                    <div class="flex flex-col text-sm text-slate-300 gap-2 items-start md:items-end">
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-map-marker-alt w-4"></i>
+                            <span>Bengaluru, Karnataka, India</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-envelope w-4"></i>
+                            <a href="mailto:mukund2345@gmail.com" class="hover:text-white transition-colors">mukund2345@gmail.com</a>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fab fa-linkedin w-4"></i>
+                            <a href="https://www.linkedin.com/in/mukundmurali-mm" target="_blank" class="hover:text-white transition-colors">linkedin.com/in/mukundmurali-mm</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="p-10 space-y-10">
+                
+                <!-- Professional Summary -->
+                <section>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="h-6 w-1 bg-blue-600 rounded-full"></div>
+                        <h2 class="text-xl font-bold uppercase tracking-wider text-slate-800">Professional Summary</h2>
+                    </div>
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                        A results-driven <span class="font-semibold text-slate-900">Technical Product Manager</span> and Cloud Solutions Architect with 10+ years of deep technical expertise across Cloud Architecture (Azure, OCI, etc.) and business strategy. I specialize in bridging the gap between complex technology capability and critical business need, delivering scalable, secure, and profitable cloud solutions that solve high-stakes infrastructure problems.
+                    </p>
+                </section>
+
+                <!-- Areas of Expertise -->
+                <section>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="h-6 w-1 bg-blue-600 rounded-full"></div>
+                        <h2 class="text-xl font-bold uppercase tracking-wider text-slate-800">Areas of Expertise</h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                            <h3 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+                                <i class="fas fa-chess-knight text-blue-600"></i> Product Strategy
+                            </h3>
+                            <p class="text-slate-600 text-sm">Market Gap Analysis, Feature Prioritization, Technical Roadmapping, MVP Definition.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                            <h3 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+                                <i class="fas fa-cloud text-blue-600"></i> Cloud Architecture
+                            </h3>
+                            <p class="text-slate-600 text-sm">Azure (Expert), Oracle Cloud Infrastructure (OCI), Networking, Load Balancing, Security.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                            <h3 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+                                <i class="fas fa-code text-blue-600"></i> Technical Depth
+                            </h3>
+                            <p class="text-slate-600 text-sm">CI/CD, DevOps Principles, System Scalability, Cloud Native Development.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                            <h3 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+                                <i class="fas fa-robot text-blue-600"></i> AI/PM Frontier
+                            </h3>
+                            <p class="text-slate-600 text-sm">Agentic Workflows, RAG Systems, Autonomous Systems.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Professional Experience -->
+                <section>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="h-6 w-1 bg-blue-600 rounded-full"></div>
+                        <h2 class="text-xl font-bold uppercase tracking-wider text-slate-800">Professional Experience</h2>
+                    </div>
+                    
+                    <div class="space-y-8">
+                        <!-- LSEG -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-blue-600 rounded-full border-4 border-white"></div>
+                            <div class="flex flex-col md:flex-row justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-slate-900">Technical Product Manager | <span class="text-blue-600">LSEG</span></h3>
+                                <span class="text-sm font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">Sept 2025 – Present</span>
+                            </div>
+                            <ul class="space-y-2 text-slate-600 list-disc list-inside">
+                                <li><strong class="text-slate-900">Strategy:</strong> Define and prioritize cloud solution development by translating complex financial industry needs into viable, technically sound product roadmaps.</li>
+                                <li><strong class="text-slate-900">Execution:</strong> Lead technical implementation by leveraging deep knowledge of network design and cloud infrastructure to ensure solutions are secure, scalable, and meet stringent regulatory requirements.</li>
+                                <li><strong class="text-slate-900">Impact:</strong> Focused on turning major infrastructure challenges into market-leading, profitable product features.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Oracle -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white"></div>
+                            <div class="flex flex-col md:flex-row justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-slate-900">Principal Cloud Architect | <span class="text-blue-600">Oracle</span></h3>
+                                <span class="text-sm font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">Jan 2022 – Sept 2025</span>
+                            </div>
+                            <ul class="space-y-2 text-slate-600 list-disc list-inside">
+                                <li><strong class="text-slate-900">Leadership:</strong> Directed the architectural design and deployment of large-scale, resilient cloud systems on OCI, establishing core technical standards and best practices.</li>
+                                <li><strong class="text-slate-900">Domain Ownership:</strong> Built deep functional expertise in designing complex, scalable network topologies that directly served high-value business objectives.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Microsoft -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white"></div>
+                            <div class="flex flex-col md:flex-row justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-slate-900">Azure Customer Engineer | <span class="text-blue-600">Microsoft</span></h3>
+                                <span class="text-sm font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">Feb 2021 – Jan 2022</span>
+                            </div>
+                            <ul class="space-y-2 text-slate-600 list-disc list-inside">
+                                <li><strong class="text-slate-900">Client-Facing Product:</strong> Served as the technical consultant for enterprise clients, successfully driving the adoption of advanced Azure services (Load Balancers, Application Gateways).</li>
+                                <li><strong class="text-slate-900">Impact:</strong> Bridged the technical gap between raw cloud capabilities and tangible business improvements, ensuring customer success and high utilization.</li>
+                            </ul>
+                        </div>
+
+                        <!-- HCL -->
+                        <div class="relative pl-6 border-l-2 border-slate-200">
+                            <div class="absolute -left-2 top-1 w-4 h-4 bg-slate-300 rounded-full border-4 border-white"></div>
+                            <div class="flex flex-col md:flex-row justify-between items-start mb-2">
+                                <h3 class="text-xl font-bold text-slate-900">Support & Network Roles | <span class="text-blue-600">HCL Technologies</span></h3>
+                                <span class="text-sm font-medium text-slate-500 bg-slate-100 px-2 py-1 rounded">June 2013 – July 2018</span>
+                            </div>
+                            <p class="text-slate-600">Developed robust, hands-on expertise in core network engineering and system reliability, providing the foundational understanding of infrastructure limitations that informs all modern architecture decisions.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education & Certs -->
+                <section class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <div>
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="h-6 w-1 bg-blue-600 rounded-full"></div>
+                            <h2 class="text-xl font-bold uppercase tracking-wider text-slate-800">Education</h2>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                            <p class="font-bold text-slate-900">Anna University</p>
+                            <p class="text-slate-600">Bachelor's degree, Computer Science (2009 – 2013)</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="h-6 w-1 bg-blue-600 rounded-full"></div>
+                            <h2 class="text-xl font-bold uppercase tracking-wider text-slate-800">Certifications</h2>
+                        </div>
+                        <ul class="space-y-2 text-slate-600">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-certificate text-blue-600 w-4"></i>
+                                <span>Oracle Cloud Infrastructure Architect Associate</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-certificate text-blue-600 w-4"></i>
+                                <span>Microsoft Azure Architect Design (AZ-304)</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-certificate text-blue-600 w-4"></i>
+                                <span>DevOps Certified Professional</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
             </div>
         </div>
-    </main>
+    </div>
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Professional Portfolio. Built by Mukund Murali with a modern neobrutalist design.</p>
-        </div>
-    </footer>
-
-    <script src="js/app.js"></script>
 </body>
 </html>
